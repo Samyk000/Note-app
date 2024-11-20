@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>My Notes</h1>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Add Note Section -->
+            <div class="note-form">
+                <input type="text" id="note-title" placeholder="Enter Title" maxlength="50">
+                <textarea id="note-content" placeholder="Write your note here..." rows="4"></textarea>
+                <select id="note-category">
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="personal">Personal</option>
+                    <option value="work">Work</option>
+                    <option value="study">Study</option>
+                    <option value="other">Other</option>
+                </select>
+                <button id="add-note-btn">Add Note</button
